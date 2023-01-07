@@ -1,0 +1,39 @@
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time, #ny_time, #la_time, #de_time, #uk_time, #jp_time, #cn_time, #tr_time {
+    font-size: 150px;
+    color: white;
+}
+body {
+    background-color: #0a192f;
+    font-family: 'Montserrat', sans-serif;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: #64ffda;
+    background-color: #0a192f00;
+    color: white;
+    font-size: x-large;
+}
+#title {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    padding: 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
